@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+ body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  
+  }
+
+  .container { 
+    flex: 1;
+  }
+
+ nav {
+  margin: 0;
+  padding: 10px;
+
+ }
+nav a {
+text-decoration: none;
+font-size: 20px;
+display: block;
+text-align: right;
+margin-right: -1;
+color: black;
+}
+
+h1 {
+  font-family: Brush Script MT, Brush Script MT, Times New Roman;
+  font-size: 80px;
+  padding: 20px;
+}
+
+
+section {
+top: 10px;
+position: relative;
+display: flex;
+flex-wrap: wrap;
+}
+
+section img {
+  width: 100%;
+  margin: none;
+  padding: none;
+  flex-direction: row;
+}
+
+.slogan {
+  position: absolute;
+    top: 50%;
+    left: 60%
+    transform: translate (-30%, -30%);
+    text-align: left;
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+
+}
+
+section p {
+position: absolute;
+top: 60%;
+left: 60%
+transform: translate (-30%, -30%);
+text-align: left;
+color: white;
+margin-left: 20px;
+
+}
+
+section button {
+position: absolute;
+top: 80%;
+left: 60%
+/*transform: translate (-60%, -60%);*/
+text-align: left;
+background-color: pink;
+border: 0;
+padding: 10px;
+margin-left: 100px;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+
+    background-color: aqua;
+    line-height: 1.5;
+    padding: 20px;
+    flex-direction: row;
+    display: flex;
+}
+footer a {
+  text-decoration: none;
+  color:black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+     
+.ft language{
+ padding: 1.25 rem 1.875rem;
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.lang options {
+  padding: 1.25rem;
+  min-width: 12.5rem
+}
+
+@media only screen and (min-width: 10.8125rem) {
+  .ft language {
+    justify-content: space-around;
+  }
+}
+@media only screen and (min-width: 77.5rem){
+  .ft language {
+    justify-content: space-evenly;
+  }
+}
+
+.lang dropdown {
+  background-color: aqua;
+  color: white;
+  border: 0;
+  margin: 1rem;
+}
+
+.submit {
+  background-color: pink;
+  cursor: pointer;
+  width: 65px;
+  padding: 10px;
+  margin-left: 20px;
+  border: 0;
+}
+
+.article a {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.ft legal {
+  margin: 10px;
+}
